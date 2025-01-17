@@ -68,7 +68,7 @@ export default function Home() {
                                 value={location}
                                 onChange={(e) => setLocation(e.target.value)}
                                 placeholder="Enter location or address"
-                                className="flex-1 bg-gray-900/50 border-gray-700 text-white placeholder:text-gray-400"
+                                className="  bg-gray-900/50 border-gray-700 text-white placeholder:text-gray-400"
                             />
 
                             <Button
