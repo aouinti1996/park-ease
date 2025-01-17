@@ -28,7 +28,7 @@ export default function Benefits() {
           </div>
           <div className="md:w-1/2">
             <Image 
-              src="/placeholder.svg" 
+              src="/smart-parking.jpeg"
               alt="SmartPark Benefits" 
               width={500} 
               height={400} 

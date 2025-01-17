@@ -8,7 +8,7 @@ export default function HowItWorks() {
   const steps = [
     { title: 'Search for parking', icon: '🔍', description: 'Enter your destination to find available spots' },
     { title: 'Reserve online', icon: '📱', description: 'Choose your spot and book it in advance' },
-    { title: 'Park easily', icon: '🚗', description: 'Follow directions to your reserved spot and park stress-free' },
+    { title: 'Park easily', icon: '🚗', description: 'Follow directions  and park stress-free' },
   ]
 
   return (
