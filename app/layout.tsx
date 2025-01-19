@@ -57,7 +57,7 @@ export default function RootLayout({
                             </div>
                             <span className="text-xl font-bold text-white">ParkEase</span>
                         </Link>
-                        <nav className="hidden md:flex space-x-8">
+                        {/* <nav className="hidden md:flex space-x-8">
                             {[
                                 ['Home', '/'],
                                 ['How It Works', '/#how-it-works'],
@@ -75,7 +75,7 @@ export default function RootLayout({
                                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full" />
                                 </Link>
                             ))}
-                        </nav>
+                        </nav> */}
                         <div className="flex items-center space-x-4">
                             <Link
                                 href="/login"
@@ -98,7 +98,7 @@ export default function RootLayout({
             </main>
             <footer className="bg-gray-900 border-t border-gray-800 text-gray-300">
                 <div className="container mx-auto px-4 py-12">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div>
                             <h3 className="text-lg font-semibold mb-4 text-white">ParkEase</h3>
                             <p className="text-sm">Making parking smarter and easier for everyone.</p>
@@ -132,23 +132,7 @@ export default function RootLayout({
                                 ))}
                             </div>
                         </div>
-                        <div>
-                            <h4 className="text-lg font-semibold mb-4 text-white">Download App</h4>
-                            <div className="flex space-x-4">
-                                <Link
-                                    href="#"
-                                    className="bg-gray-800 text-white px-4 py-2 rounded-md text-sm hover:bg-gray-700 transition-colors"
-                                >
-                                    App Store
-                                </Link>
-                                <Link
-                                    href="#"
-                                    className="bg-gray-800 text-white px-4 py-2 rounded-md text-sm hover:bg-gray-700 transition-colors"
-                                >
-                                    Google Play
-                                </Link>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
                         © {new Date().getFullYear()} ParkEase. All rights reserved.

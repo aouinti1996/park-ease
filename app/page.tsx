@@ -11,7 +11,6 @@ import HowItWorks from '@/components/HowItWorks'
 import Benefits from '@/components/Benefits'
 import About from '@/components/About'
 import FAQ from '@/components/FAQ'
-import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
     const [location, setLocation] = useState('')
@@ -94,7 +93,7 @@ export default function Home() {
             <Benefits/>
             <About/>
             <FAQ/>
-            <Testimonials/>
+            
 
         </div>
     )

@@ -40,7 +40,7 @@ export default function LoginPage() {
   return (
     <div className="container mx-auto flex items-center justify-center min-h-screen px-4">
       <Card className="w-full max-w-md overflow-hidden">
-        <div className="relative h-40 bg-gradient-to-r from-blue-400 to-blue-600">
+        {/* <div className="relative h-40 bg-gradient-to-r from-blue-400 to-blue-600">
           <Image
             src="/parking-illustration.svg"
             alt="Parking Illustration"
@@ -48,11 +48,9 @@ export default function LoginPage() {
             objectFit="cover"
             className="opacity-50"
           />
-        </div>
+        </div> */}
         <CardHeader>
-          <div className="w-20 h-20 rounded-full bg-white shadow-lg mx-auto -mt-10 flex items-center justify-center">
-            <Icons.user className="h-10 w-10 text-blue-500" />
-          </div>
+         
           <CardTitle className="text-2xl font-bold text-center mt-4">Welcome Back</CardTitle>
           <CardDescription className="text-center">Enter your credentials to access your account</CardDescription>
         </CardHeader>

@@ -48,7 +48,7 @@ export default function SignUpPage() {
   return (
     <div className="container mx-auto flex items-center justify-center min-h-screen px-4">
       <Card className="w-full max-w-md overflow-hidden">
-        <div className="relative h-40 bg-gradient-to-r from-green-400 to-blue-500">
+        {/* <div className="relative h-40 bg-gradient-to-r from-green-400 to-blue-500">
           <Image
             src="/city-parking.svg"
             alt="City Parking Illustration"
@@ -56,11 +56,9 @@ export default function SignUpPage() {
             objectFit="cover"
             className="opacity-50"
           />
-        </div>
+        </div> */}
         <CardHeader>
-          <div className="w-20 h-20 rounded-full bg-white shadow-lg mx-auto -mt-10 flex items-center justify-center">
-            <Icons.userPlus className="h-10 w-10 text-blue-500" />
-          </div>
+         
           <CardTitle className="text-2xl font-bold text-center mt-4">Create an Account</CardTitle>
           <CardDescription className="text-center">Join ParkEase and start parking smarter</CardDescription>
         </CardHeader>
