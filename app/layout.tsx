@@ -57,25 +57,6 @@ export default function RootLayout({
                             </div>
                             <span className="text-xl font-bold text-white">ParkEase</span>
                         </Link>
-                        {/* <nav className="hidden md:flex space-x-8">
-                            {[
-                                ['Home', '/'],
-                                ['How It Works', '/#how-it-works'],
-                                ['Features', '/#features'],
-                                ['About', '/#about'],
-                                ['FAQ', '/#faq'],
-                                ['Blog', '/#blog'],
-                            ].map(([label, href]) => (
-                                <Link
-                                    key={href}
-                                    href={href}
-                                    className="text-gray-300 hover:text-white transition-colors relative group"
-                                >
-                                    {label}
-                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full" />
-                                </Link>
-                            ))}
-                        </nav> */}
                         <div className="flex items-center space-x-4">
                             <Link
                                 href="/login"
